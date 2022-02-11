@@ -1,0 +1,49 @@
+#Student PASS or FAIL
+Sno=int(input('enter rollno:'))
+Sname=input('enter name:')
+S1=int(input('enter tel marks:'))
+S2=int(input('enter eng marks:'))
+S3=int(input('enter math marks:'))
+S4=int(input('enter phy marks:'))
+S5=int(input('enter comp marks:'))
+S6=int(input('enter EE marks:'))
+total=S1+S2+S3+S4+S5+S6
+avg=total/6
+if S1>=32 and S2>=32 and S3>=32 and S4>=32 and S5>=32 and S6>=32:
+    print('PASS')
+    if avg>=91:
+        print('grade-O')
+    elif avg>=81:
+        print('grade-A')
+    elif avg>=71:
+        print('grade-B')
+    elif avg>=60:
+        print('grade-C')
+    elif avg>=50:
+        print('grade-D')
+    elif avg>=40:
+        print('grade-E')
+else:
+    print('FAIL')
+ OUTPUT:
+ enter rollno:1
+ enter name:pravallika
+ enter tel marks:98
+ enter eng marks:98
+ enter math marks:98
+ enter phy marks:98
+ enter comp marks:98
+ enter EE marks:98
+ PASS
+ grade-O
+2)---------
+enter rollno:12
+ enter name:jhfghfd
+ enter tel marks:76
+ enter eng marks:98
+ enter math marks:31
+ enter phy marks:98
+ enter comp marks:98
+ enter EE marks:98
+ FAIL
+ 
